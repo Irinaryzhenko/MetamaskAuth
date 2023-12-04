@@ -4,14 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c7262d23-76cb-48b3-b235-026487461f65" name="Changes" comment="">
+    <list default="true" id="c7262d23-76cb-48b3-b235-026487461f65" name="Changes" comment="refactor code">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/po/ConnectPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/po/ConnectPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/po/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/po/HomePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/po/MetamaskPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/po/MetamaskPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/OenMMTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/OenMMTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/OenMMTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AuthMMTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,11 +49,20 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager">
-    <configuration name="OenMMTest.openMM" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.AuthMMTest">
+    <configuration name="AuthMMTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AlphaKongMetamask" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="OenMMTest" />
+      <option name="MAIN_CLASS_NAME" value="AuthMMTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AuthMMTest.openMM" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AlphaKongMetamask" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AuthMMTest" />
       <option name="METHOD_NAME" value="openMM" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -64,7 +71,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.OenMMTest.openMM" />
+        <item itemvalue="JUnit.AuthMMTest" />
+        <item itemvalue="JUnit.AuthMMTest.openMM" />
       </list>
     </recent_temporary>
   </component>
@@ -77,15 +85,27 @@
       <option name="presentableId" value="Default" />
       <updated>1701260893625</updated>
     </task>
+    <task id="LOCAL-00001" summary="refactor code">
+      <created>1701264820516</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1701264820516</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="refactor code" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor code" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/OenMMTest.java</url>
+          <url>file://$PROJECT_DIR$/src/test/java/AuthMMTest.java</url>
           <line>37</line>
-          <option name="timeStamp" value="5" />
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

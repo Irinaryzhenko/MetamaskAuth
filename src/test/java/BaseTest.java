@@ -10,7 +10,7 @@ public class BaseTest {
         options.addArguments("start-maximized");
         options.addArguments("user-data-dir=C:\\Users\\User\\AppData\\Local\\Google\\Chrome\\User Data\\TestUser");
         driver = new ChromeDriver(options);
-        driver.get("https://deepintothejungle.esas.by/en/");
+        driver.get("https://test_deepintothejungle.alphakongsclub.com/en/");
       Thread.sleep(5000);
         driver.navigate().refresh();
     }
@@ -24,10 +24,10 @@ public class BaseTest {
         }
     }
 
-    @AfterEach
-    public void quit() {
-        if (driver != null) {
-            driver.quit();
-        }
-    }
+//    @AfterEach
+//    public void quit() {
+//        if (driver != null) {
+//            driver.quit();
+//        }
+//    }
 }

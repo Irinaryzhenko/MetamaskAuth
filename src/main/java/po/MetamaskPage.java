@@ -3,6 +3,8 @@ package po;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
+import java.time.Duration;
+
 public class MetamaskPage {
     private WebDriver driver;
     private String passwordFieldLocator = "//div[@id = 'app-content']";
@@ -17,5 +19,6 @@ public class MetamaskPage {
     }
     public void submitPassword() {
         driver.findElement(By.xpath(submitPasswordLocator)).click();
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(4));
     }
 }
